@@ -5,6 +5,15 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
+  
+  <dependency>
+ 	   <groupId>io.rest-assured</groupId>
+ 	   <artifactId>rest-assured</artifactId>
+  	   <version>5.2.0</version>
+   	   <scope>test</scope>
+	</dependency>
+  
+  
      <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
     	<groupId>org.testng</groupId>
@@ -12,6 +21,21 @@
     	<version>7.6.1</version>
     	<scope>test</scope>
 	</dependency>
+	
+	
+	
+	<dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-api</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+   <dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-log4j12</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+   
+   
 
   
   
